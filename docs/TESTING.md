@@ -5,3 +5,5 @@ Run `make test` and verify a zero exit status and `PASS`. Confirm the hosted reg
 The test checks transitions on all three channels, no simultaneous complementary assertion, immediate trip suppression, sticky shutdown, explicit clear and global disable.
 
 Before power-stage operation, test dead-time across extreme duty ratios, reset behavior, asynchronous trip capture, clock failure, external gate-driver interlocks and all output pin timing.
+
+Run `make synth` with Yosys installed to reproduce the generic RTL synthesis check. Hardware placement, timing and power remain separate.
