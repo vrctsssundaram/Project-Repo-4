@@ -16,7 +16,6 @@ module safe_pwm3 #(
     output reg                  trip_latched,
     output reg  [COUNTER_W-1:0] phase_count
 );
-    timeunit 1ns; timeprecision 1ps;
     reg [COUNTER_W-1:0] active_period, active_deadtime;
     reg [COUNTER_W-1:0] duty_a, duty_b, duty_c;
     reg [COUNTER_W-1:0] blank [0:2];
