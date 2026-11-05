@@ -1,4 +1,4 @@
-# TripGuard-PWM3
+# Three-channel PWM trip controller
 
 Three-channel complementary PWM generator with programmable deadtime and trip latch.
 
