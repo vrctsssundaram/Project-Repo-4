@@ -11,4 +11,4 @@
 | `trip_latched` | Sticky fault indication |
 | `phase_count` | Current phase counter |
 
-Input clock, FPGA I/O timing, safety reaction time and fault coverage have not been characterized on hardware.
+The three PWM channels expose programmable deadtime, trip suppression and fault-latch status through a synchronous control interface.
